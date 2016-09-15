@@ -68,3 +68,13 @@ body {
 	color: rgba(19,128,26,0.54);
 	transition: 0.5s;
 }
+
+/*SPANS*/
+
+.bold-green {
+	color: rgba(19,128,26,0.9);
+}
+
+.green-underline {
+	border-bottom: 2px solid rgba(19,128,26,0.9);
+}
