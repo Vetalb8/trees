@@ -1,0 +1,21 @@
+{
+  "name": "trees",
+  "homepage": "https://github.com/Vetalb8/trees",
+  "authors": [
+    "SARATOV\\Vitaliy_Kudla <vitaliy_kudla@epam.com>"
+  ],
+  "description": "landing page",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.4",
+    "font-awesome": "^4.6.3"
+  }
+}
