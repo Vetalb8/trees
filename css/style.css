@@ -101,3 +101,35 @@ body {
 	border-bottom: 1px solid green;
 	transition: 0.5s;
 }
+/*SECTION FEATURES*/
+.section-features {
+	padding: 5rem 0;
+	background: url('./../img/brushed.png') center center;;
+}
+
+.square {
+	text-align: center;
+}
+
+.square i {
+	text-align: center;
+	margin-top: 5rem;
+	margin-top: 1rem;
+}
+
+.square i:hover {
+	color: rgba(19,128,26,1);
+	transition: 0.3s;
+}
+
+.square p {
+	padding-top: 1rem;
+	font-family: 'Nunito-Regular';
+	font-size: 1.2rem;
+}
+
+.green-hr {
+	border-top: 1px solid rgba(19,128,26,1);
+	width: 150px;
+	background-color: rgba(19,128,26,1);
+}
