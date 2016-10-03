@@ -73,6 +73,11 @@ body {
 	transition: 0.5s;
 }
 
+.parallax-btn {
+	width: 200px;
+	margin: 30px auto 0 auto;
+}
+
 /*SPANS*/
 
 .bold-green {
@@ -215,4 +220,17 @@ body {
 
 .timeline > li.timeline-inverted > .timeline-panel {
 	float: right;
+}
+
+.fa .fa-clock-o {
+	padding-right: 3px;
+}
+
+/*SECTION PARALAX*/
+#section-parallax {
+	text-align: center;
+	background: url(https://hd.unsplash.com/photo-1446104838475-bc6508184f08) center repeat fixed;
+	padding: 140px 0;
+	background-size: cover;
+	color: #fff;
 }
