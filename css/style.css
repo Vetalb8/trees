@@ -17,6 +17,9 @@ body {
 	src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
 }
 /*border: 1px solid sandybrown;*/
+h2 {
+	text-align: center;
+}
 /*SECTION COVER*/
 #cover {
 	height: 100%;
@@ -236,10 +239,6 @@ body {
 }
 
 /*SECTION CARDS*/
-#section-cards h2 {
-	text-align: center;
-}
-
 #section-cards {
 	padding: 5rem 0;
 }
@@ -250,7 +249,7 @@ body {
 
 .card img {
 	height: 180px;
-	width: 415px;
+	width: 348px;
 	transition: 1s;
 }
 
@@ -266,3 +265,35 @@ body {
 	color: rgba(19, 128, 36, 1);
 }
 
+/*SECTION NUMBERS*/
+.section-numbers {
+	background-color: #fff;
+	padding: 5rem;
+}
+
+.num {
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	margin-left: 80px;
+}
+
+.num-content {
+	display: table;
+	font-size: 20px;
+	line-height: 20px;
+	height: 140px;
+	width: 140px;
+	background-color: rgba(19, 128, 36, 0.9);
+	border-radius: 50%;
+	color: #fff;
+}
+
+.num .num-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.num-content p {
+	padding-top: 15px;
+}
