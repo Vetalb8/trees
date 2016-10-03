@@ -287,6 +287,11 @@ h2 {
 	background-color: rgba(19, 128, 36, 0.9);
 	border-radius: 50%;
 	color: #fff;
+	transition: 0.5s;
+}
+
+.num-content:hover {
+	color: #222;
 }
 
 .num .num-content {
