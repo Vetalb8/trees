@@ -236,19 +236,33 @@ body {
 }
 
 /*SECTION CARDS*/
-h2 {
+#section-cards h2 {
 	text-align: center;
 }
 
+#section-cards {
+	padding: 5rem 0;
+}
+
 .card {
-
+	margin-top: 3rem;
 }
 
-.card-block {
-
+.card img {
+	height: 180px;
+	width: 415px;
+	transition: 1s;
 }
 
-.card-text {
+.card img:hover {
+	transform: scale(0.98);
+}
 
+.card a {
+	color: rgba(19, 128, 36, 0.7);
+}
+
+.card a:hover {
+	color: rgba(19, 128, 36, 1);
 }
 
