@@ -329,12 +329,54 @@ blockquote {
 	font-family: 'Nunito-Regular';
 }
 
-.fa .fa-quote-right {
+.fa-quote-right {
 	margin-right: 10px;
+	float: right;
 }
 
 .testimonials-hr {
 	border-top: 1px solid rgba(19, 128, 36, 1);
 	width: 260px;
 	background-color: rgba(19, 128, 36, 1);
+}
+
+/*SECTION contact*/
+.section-contact {
+	background-color: #fff;
+	padding: 10rem 0;
+}
+
+#contact .form-control-label {
+	font-size: 20px;
+	line-height: 80%;
+	margin-top: 10px;
+}
+
+.form-control {
+	font-size: 18px;
+}
+
+.form-horizontal {
+	padding-top: 5rem;
+}
+
+textarea:focus, input:focus {
+	border-color: rgba(19, 128, 36, 0.53) !important;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 1px rgba(231,76,60,0.05) !important;
+}
+
+#contact .btn.btn-success {
+	background-color: rgba(19, 128, 36, 1);
+	border: 1px solid rgba(19, 128, 36, 1);
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 5rem;
+	transition: 0.5s;
+}
+
+#contact .btn.btn-success:hover {
+	background-color: rgba(19, 128, 36, 0.9);
+	border: 1px solid rgba(19, 128, 36, 1);
+	transition: 0.5s;
 }
