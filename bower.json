@@ -16,6 +16,8 @@
   ],
   "dependencies": {
     "bootstrap": "v4.0.0-alpha.4",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "waypoints": "^4.0.1",
+    "animate.css": "^3.5.2"
   }
 }
